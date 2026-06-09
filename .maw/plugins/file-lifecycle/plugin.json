@@ -1,0 +1,16 @@
+{
+  "name": "file-lifecycle",
+  "version": "1.0.0",
+  "entry": "./index.ts",
+  "sdk": "^1.0.0",
+  "description": "🪦 Track file lifecycle in git — ไฟล์เกิดเมื่อไหร่ ไฟล์ไหนถูกลบ churn เท่าไร · timeline + change + summary",
+  "author": "twentyfxurth-k",
+  "cli": {
+    "command": "file-lifecycle",
+    "aliases": ["flc", "lifecycle"],
+    "help": "maw file-lifecycle <repo-path> [--since YYYY-MM-DD] [--json] — ไฟล์เกิด-ตาย-โต ใน git"
+  },
+  "weight": 10,
+  "license": "MIT",
+  "schemaVersion": 1
+}
