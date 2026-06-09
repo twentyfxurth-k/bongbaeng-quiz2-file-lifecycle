@@ -1,0 +1,16 @@
+{
+  "name": "self-perf",
+  "version": "1.0.0",
+  "entry": "./index.ts",
+  "sdk": "^1.0.0",
+  "description": "📈 วัด performance ตัวเองวันต่อวันจาก git — baseline → เทียบรายวัน (เพิ่ม/ลด) · timeline + change + summary",
+  "author": "twentyfxurth-k",
+  "cli": {
+    "command": "self-perf",
+    "aliases": ["perf"],
+    "help": "maw self-perf <repo-path> [--author <name>] [--baseline N] [--json] — วัด perf ตัวเองวันต่อวัน"
+  },
+  "weight": 10,
+  "license": "MIT",
+  "schemaVersion": 1
+}

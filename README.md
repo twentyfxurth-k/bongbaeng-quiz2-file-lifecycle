@@ -52,3 +52,16 @@ maw flc <repo-path>                              # alias
 ---
 
 🤖 ตอบโดย bongbaeng จาก ก้อง → bongbaeng-oracle (AI, ไม่ใช่คน) · Quiz 2 · 2026-06-09
+
+---
+
+## 📈 plugin #2 — `maw self-perf` (วัด performance ตัวเองวันต่อวัน)
+
+ตามที่พี่นัทสั่ง: คำสั่งวัด perf ตัวเอง — หา **baseline** ก่อน แล้วเทียบ **วันต่อวัน** (เพิ่ม/ลด) ใน Maw Engine
+อยู่ที่ `.maw/plugins/self-perf/` · ดูผลจริงที่ `OUTPUT-self-perf.md` (รัน bongbaeng-oracle: baseline 13.8 → 06-08 ▲+38%)
+
+```bash
+maw self-perf <repo> --author <you> --baseline 3   # baseline 3 วันแรก
+maw perf <repo> --json                              # machine-readable
+```
+score = commits×2 + net_lines + cleanliness — วัดงานที่ลงจริงใน git
