@@ -2,7 +2,9 @@
   "compilerOptions": {
     "target": "ES2022", "module": "ESNext", "moduleResolution": "bundler",
     "strict": true, "esModuleInterop": true, "skipLibCheck": true, "noEmit": true,
+    "allowImportingTsExtensions": true,
+    "noImplicitAny": true,
     "types": ["bun-types", "node"]
   },
-  "include": ["index.ts"]
+  "include": ["index.ts", "types.ts"]
 }
